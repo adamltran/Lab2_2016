@@ -31,7 +31,10 @@ public class DeckTest {
 	}
 
 	@Test
-	public void BuildDeck(){	
+	public void BuildDeck(){
+		Deck D = new Deck();
+		System.out.println(D.GetSize());
+		
 	}
 
 	public void DeckOverDraw()  {
