@@ -34,6 +34,7 @@ public class DeckTest {
 	public void BuildDeck(){
 		Deck D = new Deck();
 		System.out.println(D.GetSize());
+		System.out.println(D.GetSize());
 		
 	}
 

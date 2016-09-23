@@ -8,10 +8,13 @@ public class Hand {
 	private UUID Hand;
 	//todo bScored: boolean
 
-	public void setHandScore(HandScore) {
-		this.HandScore = Handscore;
+	public void setHandScore() {
+		;
 				
 	}
+	
+	
+	
 	private ArrayList<Card> CardsInHand = new ArrayList<Card>();
 	
 	public evalHand();{
