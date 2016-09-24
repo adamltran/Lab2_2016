@@ -3,7 +3,7 @@
   associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
   <class id="1" language="java" name="pokerBase.Player" project="RioBLL" 
     file="/RioBLL/src/main/java/pokerBase/Player.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="136" width="161" x="252" y="362"/>    
+    <position height="-1" width="-1" x="110" y="300"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -12,7 +12,7 @@
   </class>  
   <class id="2" language="java" name="pokerBase.HandScore" project="RioBLL" 
     file="/RioBLL/src/main/java/pokerBase/HandScore.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="96" width="123" x="89" y="106"/>    
+    <position height="-1" width="-1" x="782" y="350"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -21,7 +21,7 @@
   </class>  
   <class id="3" language="java" name="pokerBase.Table" project="RioBLL" 
     file="/RioBLL/src/main/java/pokerBase/Table.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="136" width="247" x="252" y="106"/>    
+    <position height="-1" width="-1" x="126" y="75"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -30,7 +30,7 @@
   </class>  
   <class id="4" language="java" name="pokerBase.Deck" project="RioBLL" file="/RioBLL/src/main/java/pokerBase/Deck.java" 
     binary="false" corner="BOTTOM_RIGHT">    
-    <position height="136" width="139" x="539" y="106"/>    
+    <position height="-1" width="-1" x="391" y="115"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -39,7 +39,7 @@
   </class>  
   <class id="5" language="java" name="pokerBase.Card" project="RioBLL" file="/RioBLL/src/main/java/pokerBase/Card.java" 
     binary="false" corner="BOTTOM_RIGHT">    
-    <position height="216" width="153" x="718" y="106"/>    
+    <position height="-1" width="-1" x="385" y="363"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -48,7 +48,7 @@
   </class>  
   <class id="6" language="java" name="pokerBase.Hand" project="RioBLL" file="/RioBLL/src/main/java/pokerBase/Hand.java" 
     binary="false" corner="BOTTOM_RIGHT">    
-    <position height="96" width="123" x="911" y="106"/>    
+    <position height="-1" width="-1" x="792" y="109"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -57,8 +57,12 @@
   </class>  
   <association id="7">    
     <end type="SOURCE" refId="3" navigable="false">      
-      <attribute id="8" name="players"/>      
-      <multiplicity id="9" minimum="0" maximum="2147483647"/>    
+      <attribute id="8" name="players">        
+        <position height="0" width="0" x="-222" y="-130"/>      
+      </attribute>      
+      <multiplicity id="9" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="-222" y="-130"/>      
+      </multiplicity>    
     </end>    
     <end type="TARGET" refId="1" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  

@@ -1,25 +1,25 @@
-package pokerBase;
+ package pokerBase;
 
 import java.util.Comparator;
 
 public class Card {
 	
 	private int iCardNbr;
-	private int iCardSuit;
-	private int iCardRank;
+	private eCardSuit iCardSuit;
+	private eCardRank iCardRank;
 	
-	public Card(int iCardSuit, int iCardRank) {
-		
-		this.iCardSuit = iCardSuit;
-		this.iCardRank = iCardRank;
+	public Card(int iCardNbr, eCardSuit eCardSuit, eCardRank eCardRank) {
+		this.iCardNbr = iCardNbr;
+		this.iCardSuit = eCardSuit;
+		this.iCardRank = eCardRank;
 	}
 	public int getiCardNbr(){
 		return iCardNbr;
 	}
-	public int getiCardSuit(){
+	public eCardSuit getiCardSuit(){
 		return iCardSuit;	
 	}
-	public int getiCardRank(){
+	public eCardRank getiCardRank(){
 		return iCardRank;
 	}
 

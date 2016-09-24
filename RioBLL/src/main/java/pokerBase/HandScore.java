@@ -10,6 +10,9 @@ public class HandScore {
 	private int HiHand;
 	private int LoHand;
 	
+	public HandScore(eCardNbr eCardNbr, eCardSuit eCardSuit, eCardRank eCardRank, ArrayList<Card> deckcards) {
+		//unfinished
+	}
 	
 	public int getHandStrength() {
 		return HandStrength;

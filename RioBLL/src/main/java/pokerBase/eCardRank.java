@@ -10,8 +10,9 @@ public enum eCardRank{
 	private eCardRank(int i){
 		this.rank = i;
 	}
-	private int getRank() {
+	public int getCardRank() {
 		return rank;
 	}
+	
 	
 }
