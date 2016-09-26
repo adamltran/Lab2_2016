@@ -1,4 +1,4 @@
-package pokerBase;
+package enumPkg;
 
 import java.util.ArrayList;
 

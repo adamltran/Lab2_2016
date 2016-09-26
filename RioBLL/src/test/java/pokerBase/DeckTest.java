@@ -30,13 +30,6 @@ public class DeckTest {
 	public void tearDown() throws Exception {
 	}
 
-	@Test
-	public void BuildDeck(){
-		Deck D = new Deck();
-		System.out.println(D.GetSize());
-		System.out.println(D.GetSize());
-		
-	}
 
 	public void DeckOverDraw()  {
 	}

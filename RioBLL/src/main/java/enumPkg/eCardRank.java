@@ -1,4 +1,4 @@
-package pokerBase;
+package enumPkg;
 
 import java.util.ArrayList;
 
@@ -13,6 +13,7 @@ public enum eCardRank{
 	public int getCardRank() {
 		return rank;
 	}
+
 	
 	
 }
